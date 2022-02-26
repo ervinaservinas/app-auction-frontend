@@ -1,38 +1,162 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+    background-color: burlywood;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.d-flex {
+    display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.column {
+    flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.column-reverse {
+    flex-direction: column-reverse;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-grow1 {
+    flex: 1;
+}
+
+.flex-grow2 {
+    flex: 2;
+}
+
+.flex-grow3 {
+    flex: 3;
+}
+
+.flex-grow4 {
+    flex: 4;
+}
+
+.flex-grow5 {
+    flex: 5;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.j-evenly {
+    justify-content: space-evenly;
+}
+
+.j-start {
+    justify-content: start;
+}
+
+.j-end {
+    justify-content: end;
+}
+
+.j-around {
+    justify-content: space-around;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.a-start {
+    align-content: flex-start;
+}
+
+.a-around {
+    align-content: space-around;
+}
+
+.j-space {
+    justify-content: space-around;
+}
+
+.d-none {
+    display: none;
+}
+
+
+button {
+    cursor: pointer;
+    padding: 5px 15px;
+    margin: 10px;
+
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-nondec {
+    text-decoration: none;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.mv-5 {
+    margin: 5px 0;
+}
+
+.mh-20 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.user-info {
+    padding: 10px;
+    margin-right: 100px;
+}
+
+.card {
+    width: 90%;
+    max-height: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #17171a;
+
+}
+
+.post-img {
+    width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+    object-position: center;
+
+}
+
+.commentdiv {
+    min-height: 60px;
+}
+
+.littlepic {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
+
+}
+
+.comment {
+    border: blue 1px solid;
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 10px 20px;
 }
