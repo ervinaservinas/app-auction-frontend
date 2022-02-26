@@ -11,11 +11,11 @@ const AllAuctions = () => {
     const nav=useNavigate()
 
     useEffect(() =>{
-        const fechtPooling = setInterval(() => {
+        const fecthPooling = setInterval(() => {
             fetchData()
 
         }, 1000);
-        return () => clearInterval(fechtPooling)
+        return () => clearInterval(fecthPooling)
     },[])
 
     async function fetchData(){
@@ -42,7 +42,7 @@ const AllAuctions = () => {
     return (
         <div>
             <h3>All Auctions</h3>
-            <div className='flex-wrap'>
+            <div className='flex-wrap auction'>
                 {allAuctions.map((x, index)=>
                     <div className="flex-wrap auctionBox" key={index}>
                         <Auction index={index} user = {x} />

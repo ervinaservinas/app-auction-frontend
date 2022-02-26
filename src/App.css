@@ -142,9 +142,7 @@ button {
 
 }
 
-.commentdiv {
-    min-height: 60px;
-}
+
 
 .littlepic {
     width: 100px;
@@ -154,9 +152,10 @@ button {
 
 }
 
-.comment {
-    border: blue 1px solid;
-    border-radius: 10px;
-    margin: 5px 0;
-    padding: 10px 20px;
+.auction {
+
+}
+.auction img {
+    height: 150px;
+    width: 150px;
 }
